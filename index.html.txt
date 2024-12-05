@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lombricomposta con Medidor de Humedad y Temperatura</title>
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    .color1 { color: #daf7a6; }
+    .color2 { color: #21abfb; }
+    .color3 { color: #eafaf1; }
+    .color4 { color: #008000; }
+    .color5 { color: #ffffff; }
+</style>
+</head>
+<body class="w-full bg-white">
+
+<!-- HEADER -->
+<header class="w-full bg-[#21abfb] py-10">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+    <div class="text-center md:text-left mb-6 md:mb-0">
+      <h1 class="text-3xl md:text-5xl font-bold text-white mb-4">Lombricomposta Inteligente 🪱💧</h1>
+      <p class="text-lg text-white mb-6">
+        ¡Descubre cómo mantener tu lombricomposta en condiciones óptimas para obtener el mejor abono orgánico! 🌱
+      </p>
+      <button class="bg-[#008000] text-white font-semibold px-6 py-3 rounded-md hover:bg-green-700 transition duration-300">
+        ¡Comienza Ahora!
+      </button>
+    </div>
+    <div class="flex justify-center">
+      <!-- Espacio para imagen del header -->
+      <img src="https://via.placeholder.com/200x200" alt="Lombricomposta" class="rounded-full border-4 border-white shadow-lg">
+    </div>
+  </div>
+</header>
+
+<!-- SECCION: QUE VAS A APRENDER -->
+<section class="w-full bg-[#eafaf1] py-16">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-10">¿Qué Vas a Aprender? 🤔</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Card 1 -->
+      <div class="bg-white border border-gray-200 rounded-lg shadow p-6 text-center">
+        <h3 class="text-2xl font-semibold mb-4">¿Qué es la lombricomposta? 🪱</h3>
+        <p class="text-gray-700">
+          Aprenderás los fundamentos de la lombricomposta, su origen y cómo las lombrices trabajan para transformar residuos orgánicos en valioso abono.
+        </p>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="bg-white border border-gray-200 rounded-lg shadow p-6 text-center">
+        <h3 class="text-2xl font-semibold mb-4">Beneficios de la lombricomposta 🌱</h3>
+        <p class="text-gray-700">
+          Descubrirás por qué este abono orgánico es tan apreciado: mejora la calidad del suelo, promueve la retención de humedad y contribuye a la salud de tus plantas.
+        </p>
+      </div>
+      
+      <!-- Card 3 -->
+      <div class="bg-white border border-gray-200 rounded-lg shadow p-6 text-center">
+        <h3 class="text-2xl font-semibold mb-4">Su utilización 🏡</h3>
+        <p class="text-gray-700">
+          Conocerás diferentes maneras de emplear la lombricomposta en huertos, jardines y cultivos urbanos, optimizando al máximo tus recursos naturales.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SECCION 2 COLUMNAS: SISTEMA DE LOMBRICOMPOSTA -->
+<section class="w-full bg-[#daf7a6] py-16">
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <!-- Columna Izquierda: Imagen -->
+    <div class="flex justify-center">
+      <img src="https://via.placeholder.com/400x300" alt="Sistema de Lombricomposta" class="rounded-lg border border-gray-200 shadow">
+    </div>
+    <!-- Columna Derecha: Copy -->
+    <div>
+      <h2 class="text-3xl font-bold mb-4">Un Sistema Controlado y Eficiente ⚙️</h2>
+      <p class="text-gray-800 mb-6">
+        Nuestra solución integra sensores que monitorean la humedad y la temperatura, asegurando un ambiente óptimo dentro de tu lombricomposta. Esto te permitirá maximizar la productividad y calidad del abono orgánico sin esfuerzo.
+      </p>
+      <p class="text-gray-800">
+        ¡Di adiós a las conjeturas y empieza a obtener resultados precisos en poco tiempo!
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SECCION: COMO FUNCIONA EL SISTEMA DE HUMEDAD Y TEMPERATURA -->
+<section class="w-full bg-white py-16">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-10">¿Cómo Funciona el Sistema de Humedad y Temperatura? 🌡️💧</h2>
+    <div class="max-w-md mx-auto">
+      <div class="bg-white border border-gray-200 rounded-lg shadow p-6 text-center">
+        <h3 class="text-2xl font-semibold mb-4">Control Inteligente</h3>
+        <p class="text-gray-700">
+          Gracias a nuestros sensores integrados, el sistema mide la humedad y temperatura del medio. Si detecta variaciones, ajusta las condiciones internas con ventilación o riego controlado, garantizando el entorno perfecto para tus lombrices y tu abono.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="w-full bg-[#21abfb] py-8 text-white text-center">
+  <div class="max-w-7xl mx-auto px-4">
+    <p>© 2024 Lombricomposta Inteligente. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- JavaScript -->
+<script>
+  // Aquí puedes añadir tu lógica JavaScript
+  console.log("Página de Lombricomposta cargada correctamente.");
+</script>
+
+</body>
+</html>
